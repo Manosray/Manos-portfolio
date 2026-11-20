@@ -1,0 +1,160 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Manos Roy | Web Developer</title>
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+
+<style>
+*{scroll-behavior:smooth}
+body{background:#0b1020;color:#fff;font-family:Arial,sans-serif}
+.navbar{background:#101a30}
+.navbar-brand{font-weight:bold;color:#70a5ff!important}
+.hero{min-height:90vh;display:flex;align-items:center;background:linear-gradient(120deg,#101a30,#193968)}
+.hero h1{font-size:55px;font-weight:800}
+.hero h1 span{color:#70a5ff}
+.hero p,.muted{color:#b8c5db;line-height:1.8}
+.btn-primary{background:#70a5ff;border:0;color:#071326;font-weight:bold}
+section{padding:85px 0}
+.section-title{text-align:center;margin-bottom:40px}
+.section-title span{color:#70a5ff}
+.card-box{background:#15223a;border:1px solid #2a3b5c;border-radius:16px;padding:25px;height:100%;transition:.3s}
+.card-box:hover{transform:translateY(-5px);border-color:#70a5ff}
+.skill{display:inline-block;background:#203454;padding:10px 15px;border-radius:8px;margin:5px}
+.project-image{height:180px;border-radius:12px;background:linear-gradient(135deg,#244f83,#5689c6);display:grid;place-items:center;font-size:35px;font-weight:bold}
+a{color:#8ab5ff;text-decoration:none}
+.video-box{background:#15223a;border:1px dashed #54719e;padding:45px 15px;text-align:center;border-radius:15px}
+.contact{background:#142440;text-align:center;border-radius:20px;padding:45px}
+footer{padding:25px;text-align:center;background:#080d18;color:#aab8cf}
+@media(max-width:600px){.hero h1{font-size:39px}}
+</style>
+</head>
+
+<body>
+
+<nav class="navbar navbar-expand-lg navbar-dark sticky-top">
+<div class="container">
+<a class="navbar-brand" href="#">MANOS ROY.</a>
+<button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#menu">
+<span class="navbar-toggler-icon"></span>
+</button>
+<div class="collapse navbar-collapse" id="menu">
+<ul class="navbar-nav ms-auto">
+<li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+<li class="nav-item"><a class="nav-link" href="#skills">Skills</a></li>
+<li class="nav-item"><a class="nav-link" href="#projects">Projects</a></li>
+<li class="nav-item"><a class="nav-link" href="#videos">Videos</a></li>
+<li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+</ul>
+</div>
+</div>
+</nav>
+
+<header class="hero" id="home">
+<div class="container">
+<div class="row align-items-center">
+<div class="col-lg-8">
+<p>WELCOME TO MY PORTFOLIO</p>
+<h1>Hello, I'm <span>Manos Roy</span></h1>
+<h3>Web Developer & Data Entry Freelancer</h3>
+<p class="mt-3">I create modern, responsive and user-friendly websites using HTML, CSS, Bootstrap and JavaScript. I also provide data entry services.</p>
+<a href="#projects" class="btn btn-primary btn-lg mt-3">Explore My Work</a>
+</div>
+</div>
+</div>
+</header>
+
+<section id="about">
+<div class="container">
+<div class="section-title"><h2>About <span>Me</span></h2></div>
+<div class="row justify-content-center">
+<div class="col-lg-9 text-center">
+<p class="muted">I am a web development learner from Bangladesh. I enjoy creating responsive websites and improving my skills through practical projects. My focus is clean design, mobile-friendly layouts and reliable work.</p>
+</div>
+</div>
+</div>
+</section>
+
+<section id="skills" style="background:#101a30">
+<div class="container">
+<div class="section-title"><h2>My <span>Skills</span></h2></div>
+<div class="text-center">
+<span class="skill">HTML5</span>
+<span class="skill">CSS3</span>
+<span class="skill">Bootstrap</span>
+<span class="skill">JavaScript</span>
+<span class="skill">Responsive Design</span>
+<span class="skill">Data Entry</span>
+<span class="skill">Microsoft Excel</span>
+<span class="skill">PDF Conversion</span>
+</div>
+</div>
+</section>
+
+<section id="projects">
+<div class="container">
+<div class="section-title"><h2>My <span>Projects</span></h2></div>
+<div class="row g-4">
+<div class="col-md-6">
+<div class="card-box">
+<div class="project-image">ShopBD</div>
+<h4 class="mt-3">ShopBD Website</h4>
+<p class="muted">An online shopping website project with product sections and responsive layout.</p>
+<a href="https://manosray.github.io/Shopbd/" target="_blank">Visit Live Website →</a>
+</div>
+</div>
+<div class="col-md-6">
+<div class="card-box">
+<div class="project-image">WEB DESIGN</div>
+<h4 class="mt-3">Responsive Web Design</h4>
+<p class="muted">Add screenshots and details of your next completed website project here.</p>
+</div>
+</div>
+</div>
+</div>
+</section>
+
+<section id="videos" style="background:#101a30">
+<div class="container">
+<div class="section-title"><h2>Video <span>Portfolio</span></h2></div>
+<div class="row g-4">
+<div class="col-md-6">
+<div class="video-box">
+<h4>ShopBD Website Demo</h4>
+<p class="muted">Your project video will appear here.</p>
+</div>
+</div>
+<div class="col-md-6">
+<div class="video-box">
+<h4>Responsive Website Demo</h4>
+<p class="muted">Add your own project video here.</p>
+</div>
+</div>
+</div>
+</div>
+</section>
+
+<section id="contact">
+<div class="container">
+<div class="contact">
+<h2>Let's Work <span style="color:#70a5ff">Together</span></h2>
+<p class="muted">Have a website or data entry project? Contact me.</p>
+<a href="https://www.fiverr.com/manosray" target="_blank" class="btn btn-primary btn-lg">My Fiverr Profile</a>
+</div>
+</div>
+</section>
+
+<footer>
+<p>© <span id="year"></span> Manos Roy. All Rights Reserved.</p>
+<p>Built with HTML, CSS, Bootstrap & JavaScript</p>
+</footer>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+<script>
+document.getElementById("year").textContent=new Date().getFullYear();
+</script>
+
+</body>
+</html>
